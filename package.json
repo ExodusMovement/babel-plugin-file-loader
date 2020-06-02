@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-file-loader",
-  "version": "2.0.0",
+  "name": "@exodus/babel-plugin-file-loader",
+  "version": "2.0.0-exodus",
   "description": "Like file-loader for webpack, but for Babel. Works with SSE apps.",
-  "author": "Adam Stankiewicz <sheerun@sher.pl>",
-  "repository": "sheerun/babel-plugin-file-loader",
-  "license": "MIT",
+  "author": "ExodusMovement",
+  "repository": "git@github.com:ExodusMovement/babel-plugin-file-loader.git",
+  "license": "ISC",
   "keywords": [
     "nextjs",
     "babel",
