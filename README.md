@@ -94,17 +94,12 @@ The default is `[hash].[ext]` where:
 | **`[ext]`**  | `{String}` | `file.extname`  | The extension of the resource                      |
 | **`[name]`** | `{String}` | `file.basename` | The basename of the resource                       |
 | **`[path]`** | `{String}` | `file.dirname`  | The path of the resource relative to the `context` |
-| **`[hash]`** | `{String}` |      `md5`      | The hash of the content, see below for more info   |
 
-The full format `[hash]` is: `[<hashType>:hash:<digestType>:<length>]`, where:
+The full format `[hash]` is: `[hash:<length>]`, where:
 
-|       Name       |    Type    | Default  | Description                                                                           |
-| :--------------: | :--------: | :------: | :------------------------------------------------------------------------------------ |
-|  **`hashType`**  | `{String}` |  `md5`   | `sha1`, `md5`, `sha256`, `sha512`                                                     |
-| **`digestType`** | `{String}` | `base64` | `hex`, `base26`, `base32`, `base36`, `base49`, `base52`, `base58`, `base62`, `base64` |
-|   **`length`**   | `{Number}` |  `128`   | The length in chars                                                                   |
-
-For example: `[md5:hash:base58:8]` or `[hash:base36]`.
+|     Name     |    Type    | Default | Description         |
+| :----------: | :--------: | :-----: | :------------------ |
+| **`length`** | `{Number}` |  `128`  | The length in chars |
 
 ### extensions
 
